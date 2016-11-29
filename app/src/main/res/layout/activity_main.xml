@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.vivien.myviewdraghelper.MyVDHLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="#44ff0000"
+            android:gravity="center"
+            android:text="I can be dragged !" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="#44ff0000"
+            android:gravity="center"
+            android:text="I can be dragged !" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="#44ff0000"
+            android:gravity="center"
+            android:text="I can be dragged !" />
+
+    </com.vivien.myviewdraghelper.MyVDHLayout>
+
+    <com.vivien.myviewdraghelper.MyVDHLayout2
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="#44ff0000"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="I can be dragged !" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="#44ff0000"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="I will back to origin pass !" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="#44ff0000"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="use edge tracker to operate me !" />
+
+    </com.vivien.myviewdraghelper.MyVDHLayout2>
+
+
+</LinearLayout>
